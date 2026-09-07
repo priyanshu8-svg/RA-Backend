@@ -1,4 +1,4 @@
-import * as pdfModule from "pdf-parse";
+import * as pdfModule from "pdf-parse/lib/pdf-parse.js";
 const PDFParse = pdfModule.PDFParse;
 import {GenerateInterviewReport, generateResumePdf} from "../Services/ai.service.js";
 import InterviewReportModel from "../models/interviewReport.model.js";
