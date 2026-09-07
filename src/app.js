@@ -9,7 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: import.meta.env.VITE_FRONTEND_URL,
+    origin: process.env.FRONTEND_URL,
     credentials: true
 }));
 
