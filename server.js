@@ -12,7 +12,7 @@ connectToDB();
 //GenerateInterviewReport();
 
 app.get("/", (req, res) => {
-    res.send("Hello World")
+    res.send("Backend server is running");
 })
 
 // app.listen(3001, () => {
